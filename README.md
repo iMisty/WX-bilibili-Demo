@@ -20,11 +20,11 @@
 
 1. git clone 这个项目
 
-> git clone https://github.com/Jingyi21/Miya-Carnival.git
+> git clone https://github.com/Miya-Yukarin/Yukarin-Carnvial-HomePage.git
 
 2. 安装依赖
 
-> cd Miya-Carnival && npm install
+> cd Yukarin-Carnvial-HomePage && npm install
 
 3. 部署展示
 
@@ -37,7 +37,8 @@ Miya Carnival 项目离不开以下开源项目的支持,对此表示衷心感�
 - jQuery
 - MDUI
 - Bootstrap
-- React
+- Vue.js
+- Font-awesome
 
 ## 更新日志
 
