@@ -1,0 +1,50 @@
+{
+  "name": "miya-carnival",
+  "version": "0.1.1",
+  "description": "Miya-Carnival's HomePage",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack & webpack-dev-server --env development",
+    "build": "webpack --env production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Miya-Yukarin/Miya-Carnival.git"
+  },
+  "keywords": [
+    "homepage",
+    "jquery"
+  ],
+  "author": "Miya",
+  "license": "MIT",
+  "open": {
+    "type": true
+  },
+  "bugs": {
+    "url": "https://github.com/Miya-Yukarin/Miya-Carnival/issues"
+  },
+  "homepage": "https://github.com/Miya-Yukarin/Miya-Carnival#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^1.0.0",
+    "expose-loader": "^0.7.5",
+    "jquery": "^3.3.1",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.20.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.4",
+    "babel-preset-es2015": "^6.24.1",
+    "expose-loader": "^0.7.5",
+    "jquery": "^3.3.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
