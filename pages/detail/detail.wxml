@@ -1,0 +1,51 @@
+<view class="main">
+  <MyTitle></MyTitle>
+  <view class="video-info">
+    <video src="{{videoInfo.videoSrc}}" controls></video>
+    <view class="video-title">
+      <text>{{videoInfo.videoTitle}}</text>
+      <text class="fa fa-angle-down"></text>
+    </view>
+    <view class="video-detail">
+      <text class="author">{{videoInfo.author}}</text>
+      <text class="play-count">{{videoInfo.playCount}}播放</text>
+      <text class="comment-count">{{videoInfo.commentCount}}弹幕</text>
+      <text class="date">{{videoInfo.date}}</text>
+    </view>
+    <view class="other-list">
+      <navigator class="item-other" wx:for="{{othersList}}" wx:key="{{index}}">
+        <view class="other-img-wrap">
+          <image src="{{item.imgSrc}}" mode="widthFix"></image>
+        </view>
+        <view class="other-info">
+          <view class="other-title">{{item.title}}</view>
+          <view class="other-detail">
+            <text class="play-count">{{item.playMsg}}次观看</text>
+            <text class="comment-count">{{item.commentCount}}次评论</text>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="comment-wrap">
+      <view class="comment-title">
+        评论( {{commentData.commentTotalCount}} )
+      </view>
+      <view class="comment-list">
+        <view class="comment-item" wx:for="{{commentData.commentList}}" wx:key="{{index}}">
+          <view class="comment-user">
+            <image src="{{item.userIconSrc}}" mode="widthFix"></image>
+          </view>
+          <view class="comment-info">
+            <view class="comment-detail">
+              <text class="author">{{item.username}}</text>
+              <text class="date">{{item.commentDate}}</text>
+            </view>
+            <view class="comment-content">
+              {{item.commentInfo}}
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
