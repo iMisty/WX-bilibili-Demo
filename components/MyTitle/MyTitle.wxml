@@ -1,6 +1,6 @@
 <view class="my-title">
   <navigator class="logo">
-    <image class="logo-image" src="../../icon/logo.png"></image>
+    <image class="logo-image" src="../../icon/logo2.png"></image>
   </navigator>
   <view class="search-icon">
     <image class="search-image" src="../../icon/search.png"></image>

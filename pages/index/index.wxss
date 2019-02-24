@@ -54,7 +54,7 @@ page {
   position: relative;
 }
 
-.video-img image {
+.video-img-image {
   width: 100%;
   border-radius: 16rpx;
 }
@@ -68,6 +68,11 @@ page {
   width: 100%;
   color: #fff;
   font-size: 20rpx;
+}
+
+.count-image{
+  width: 24rpx;
+  padding-right: 8rpx;
 }
 
 .video-title {
