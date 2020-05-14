@@ -25,7 +25,7 @@
 - 点击项目右上角的 Clone or download ,选择 Download ZIP ,将文件下载到本地中,解压缩后使用微信开发者工具导入
 
 ### 如何在自己的手机上测试
-没有任何文章比官方文档更权威了:https://developers.weixin.qq.com/miniprogram/dev/
+没有任何文章比官方文档更权威了:https://developers.weixin.qq.com/miniprogram/dev/framework (傻X微信）
 
 ### 为什么接口数据非常缓慢
 接口速度取决于你的网络速度,这个和接口服务器有关
